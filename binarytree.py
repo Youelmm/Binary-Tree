@@ -2,8 +2,7 @@ class BinaryTree():
     
     def __init__(self, root=None):
         self.root = root
-    
-    # To correct
+
     def contains(self, node) -> bool:
         current_node = self.root
         while True:

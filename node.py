@@ -21,10 +21,4 @@ class Node:
         return self.value > other.value
     
     def __str__(self):
-        return str(self.value)
-        
-    def set_left_node(self, node):
-        self.left_node = node
-        
-    def set_right_node(self, node):
-        self.left_node = node        
+        return str(self.value)        
